@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/app_name_activity_context"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/app_name"/>
+
+    <TextView
+        android:id="@+id/app_name_app_context"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/app_name"/>
+
+    <Button
+        android:id="@+id/button_light"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Light"/>
+
+    <Button
+        android:id="@+id/button_dark"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Dark"/>
+
+    <Button
+        android:id="@+id/button_system"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="System"/>
+
+    <Button
+        android:id="@+id/button_recreate"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Recreate"/>
+
+    <TextView
+        android:id="@+id/set_mode_text"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"/>
+
+    <TextView
+        android:id="@+id/local_mode_text"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"/>
+
+    <TextView
+        android:id="@+id/default_mode_text"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"/>
+</LinearLayout>
